@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>4 mystreet, Somewhere</p>
+  <p>Telephone 01234 56781234</p>
+  <p>Email myemail@bt.com</p>
+<hr>
+<!--if form action is set to mailto when we hit submit it will open a email
+ browser. The text plain will ensure the text characters are readable-->
+  <form action="mailto:info@gmail.com" method="post" enctype="text/plain">
+    <!--The label tag displays the text you will see-->
+    <label for="name">Enter your name</label>
+    <!--As the input tag is set to text html displays a text box
+  there are various other attributes available for example submit see below-->
+    <input type="text" name="Your name" value="">
+    <br>
+    <label for="email">enter your email</label>
+    <input type="email" name="Your email" value="">
+    <br>
+    <label for="message">Your message</label>
+    <br>
+    <textarea name="name" rows="10" cols="30"></textarea>
+    <!--As the input tag is defined as submit html adds the submit button -->
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
